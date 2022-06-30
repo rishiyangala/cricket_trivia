@@ -133,7 +133,7 @@ function Hangman(words, fullGuesses) {
     this.startNewGame();
 }
 
-var hangman = new Hangman(words, 9);
+var hangman = new Hangman(words, 11);
 
 //on keyup I need to read user input
 document.body.onkeyup = event => hangman.processGuess(event);
